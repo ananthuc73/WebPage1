@@ -1,0 +1,55 @@
+body{
+	background-image: url(../img/back.jpg);
+	background-size: cover;
+}
+
+.top{
+	display: flex;
+	background-color: black;
+	padding:20px;
+	justify-content: center;
+}
+
+.top a{
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+}
+
+.flex{
+	display: flex;
+}
+
+.flex div{
+	background-color: rgba(0,0,0,0.5);
+	height: 300px;
+	margin: 10px 20px;
+	opacity: 0.5;
+	padding: 50px;
+	color: white;
+}
+
+h2{
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.bottom1{
+	display: flex;
+	padding-top:4px;
+
+}
+
+.bottom2{
+	display: flex;
+	padding-bottom:10px;
+}
+
+.section1{
+	display: flex;
+	padding: 5px;
+	background-color: black;
+	justify-content: center;
+	color: white;
+}
